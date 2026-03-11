@@ -1,0 +1,44 @@
+{
+  "name": "footprint-features",
+  "version": "0.1.0",
+  "description": "Declarative feature module system — define once, derive everything. Part of the footprintjs ecosystem.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "footprint",
+    "features",
+    "modules",
+    "registry",
+    "school",
+    "platform",
+    "configuration",
+    "feature-flags"
+  ],
+  "author": "footprintjs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/footprintjs/footprint-features.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
