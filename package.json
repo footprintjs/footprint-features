@@ -1,7 +1,7 @@
 {
   "name": "footprint-features",
   "version": "0.1.0",
-  "description": "TypeScript module registry and school-profile configuration: dependency resolution, feature gates, terminology, role declarations and seed blueprints.",
+  "description": "Beta: TypeScript module registry and school-profile configuration: dependency resolution, feature gates, terminology, role declarations and seed blueprints.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,7 +29,8 @@
     "school",
     "configuration",
     "terminology",
-    "footprintjs"
+    "footprintjs",
+    "beta"
   ],
   "author": "footprintjs",
   "license": "MIT",

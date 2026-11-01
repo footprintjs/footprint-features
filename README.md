@@ -1,5 +1,7 @@
 # footprint-features
 
+**Beta — APIs may change. Not published on npm; use the source setup below.**
+
 A TypeScript feature-module registry for school platforms. Define modules and school types once, then derive enabled features, dependency trees, terminology, role declarations and seed blueprints for each school profile.
 
 For developers configuring variants such as K–12, dance and music schools. This package exposes school-oriented names (`defineSchoolType`, `resolveSchoolConfig`). For the consolidated, domain-agnostic framework, see [footprint-blueprint](https://github.com/footprintjs/footprint-blueprint) and its release status; the APIs are not interchangeable.
