@@ -1,7 +1,7 @@
 {
   "name": "footprint-features",
   "version": "0.1.0",
-  "description": "Declarative feature module system — define once, derive everything. Part of the footprintjs ecosystem.",
+  "description": "TypeScript module registry and school-profile configuration: dependency resolution, feature gates, terminology, role declarations and seed blueprints.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,14 +22,14 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "footprint",
-    "features",
-    "modules",
-    "registry",
+    "typescript",
+    "feature-modules",
+    "module-registry",
+    "dependency-graph",
     "school",
-    "platform",
     "configuration",
-    "feature-flags"
+    "terminology",
+    "footprintjs"
   ],
   "author": "footprintjs",
   "license": "MIT",
@@ -40,5 +40,9 @@
   "devDependencies": {
     "typescript": "^5.7.0",
     "vitest": "^2.1.0"
+  },
+  "homepage": "https://github.com/footprintjs/footprint-features#readme",
+  "bugs": {
+    "url": "https://github.com/footprintjs/footprint-features/issues"
   }
 }
